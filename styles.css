@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgs-wrapper {
+    display: flex;
+}
+
+.img-wrapper {
+    width: 200px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.buttons-wrapper {
+    display: flex;
+    margin-top: 50px;
+}
+
+.button {
+    display: flex;
+    border: none;
+    padding: 5px;
+}
+
+.turn_on {
+    background-color: #42b271;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.turn_off {
+    background-color: #b22c2c;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
