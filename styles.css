@@ -10,6 +10,11 @@
 
 .img-wrapper {
     width: 200px;
+    height: 270px;
+}
+
+.light {
+    display: none;
 }
 
 img {
@@ -29,13 +34,39 @@ img {
 }
 
 .turn_on {
-    background-color: #42b271;
+    background-color: white;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 .turn_off {
     background-color: #b22c2c;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
+}
+
+.active {
+    display: flex;
+}
+
+.inactive {
+    display: none;
+}
+
+.turn_on.button-active {
+    background-color: #42b271;
+    border: none;
+}
+
+.turn_off.button-active {
+    background-color: #b22c2c;
+    border: none;
+}
+
+.button-inactive {
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
 }
